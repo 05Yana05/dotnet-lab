@@ -1,0 +1,31 @@
+name: Build Artifacts
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        configuration: [Debug, Release]
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+          
+      - name: Build
+        run: dotnet build LabVar3.sln -c ${{ matrix.configuration }}
+        
+      - name: Test
+        run: dotnet test LabVar3.sln -c ${{ matrix.configuration }} --no-build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-${{ matrix.configuration }}
+          path: CalcLib/bin/${{ matrix.configuration }}/net9.0/*.dll
