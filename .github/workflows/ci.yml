@@ -1,26 +1,41 @@
-name: CI Parallel
+name: CI Combined
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  build-debug:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.0.x'
-      - name: Build Debug
-        run: dotnet build LabVar3.sln -c Debug
-
-  build-release:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '9.0.x'
-      - name: Build Release
+      - name: Build
         run: dotnet build LabVar3.sln -c Release
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        configuration: [Debug, Release]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      - name: Test (${{ matrix.configuration }})
+        run: dotnet test LabVar3.sln -c ${{ matrix.configuration }} --no-build
+
+  analyze:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      - name: Run code analysis
+        run: dotnet format LabVar3.sln --verify-no-changes
