@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="47d2884e-fc9c-41d3-a729-708a8b3bc5e6" name="Honor@YANIK 2026-11-23 17:33:51" runUser="YANIK\Honor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-23T17:33:51.3743606+03:00" queuing="2026-11-23T17:33:51.3743611+03:00" start="2026-11-23T17:33:50.4515165+03:00" finish="2026-11-23T17:33:51.4023179+03:00" />
+  <TestSettings name="default" id="42bb588e-85f9-40df-8086-f06c23b28cf4">
+    <Deployment runDeploymentRoot="Honor_YANIK_2026-11-23_17_33_51" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="077d3358-de56-43ec-80cc-1031f8aa7f0a" testId="03309f45-ab65-1fcc-f611-e4cb00f0bc93" testName="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 1, expected: False)" computerName="YANIK" duration="00:00:00.0004784" startTime="2026-11-23T17:33:51.2916229+03:00" endTime="2026-11-23T17:33:51.2916230+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="077d3358-de56-43ec-80cc-1031f8aa7f0a" />
+    <UnitTestResult executionId="ad1aee4a-6d05-4774-8eef-c0938e8bea93" testId="2750d8a6-d1ea-dd27-f6cd-5735de6712c2" testName="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 12, b: 18, expected: 6)" computerName="YANIK" duration="00:00:00.0000024" startTime="2026-11-23T17:33:51.2915163+03:00" endTime="2026-11-23T17:33:51.2915163+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad1aee4a-6d05-4774-8eef-c0938e8bea93" />
+    <UnitTestResult executionId="ada50a9c-16e2-4f0c-b708-fac220026107" testId="c9770413-7656-7ad2-d7a0-048cebc4dc8f" testName="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 100, b: 75, expected: 25)" computerName="YANIK" duration="00:00:00.0070810" startTime="2026-11-23T17:33:51.2872633+03:00" endTime="2026-11-23T17:33:51.2873007+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ada50a9c-16e2-4f0c-b708-fac220026107" />
+    <UnitTestResult executionId="799b7af6-05b3-4944-a3c4-6610cc37da19" testId="ad5f4296-e60b-c023-13f3-bcb9589fa4cd" testName="CalcLib.Tests.MathUtilsTests.Gcd_NegativeArguments_Throw" computerName="YANIK" duration="00:00:00.0009020" startTime="2026-11-23T17:33:51.3217891+03:00" endTime="2026-11-23T17:33:51.3217891+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="799b7af6-05b3-4944-a3c4-6610cc37da19" />
+    <UnitTestResult executionId="d118c113-1ab4-478e-915e-e6ceae5e8473" testId="20b1b058-8847-b894-4a3e-74614f083850" testName="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 9, expected: False)" computerName="YANIK" duration="00:00:00.0000055" startTime="2026-11-23T17:33:51.2917393+03:00" endTime="2026-11-23T17:33:51.2917393+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d118c113-1ab4-478e-915e-e6ceae5e8473" />
+    <UnitTestResult executionId="b46b222b-1a79-4935-aeb7-145d05760ad8" testId="da8ca574-852b-9f40-1dbc-ad075b1f0c76" testName="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 97, expected: True)" computerName="YANIK" duration="00:00:00.0034723" startTime="2026-11-23T17:33:51.2915814+03:00" endTime="2026-11-23T17:33:51.2915814+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b46b222b-1a79-4935-aeb7-145d05760ad8" />
+    <UnitTestResult executionId="78f42218-dd15-472b-b00f-77e155f0d582" testId="2e034713-9a5b-c4b1-0103-f6302f689208" testName="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 0, b: 7, expected: 7)" computerName="YANIK" duration="00:00:00.0000048" startTime="2026-11-23T17:33:51.2914731+03:00" endTime="2026-11-23T17:33:51.2914732+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78f42218-dd15-472b-b00f-77e155f0d582" />
+    <UnitTestResult executionId="38f46e89-27e7-4e39-b0d7-a34c6f69bc1f" testId="bb83f0e8-db4d-3d2d-6c27-b2b40ed77382" testName="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 7919, expected: True)" computerName="YANIK" duration="00:00:00.0000066" startTime="2026-11-23T17:33:51.2917073+03:00" endTime="2026-11-23T17:33:51.2917073+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38f46e89-27e7-4e39-b0d7-a34c6f69bc1f" />
+    <UnitTestResult executionId="b4d2c039-e52a-486b-bebb-0f1e89a5ad7e" testId="cf92cfcc-d77b-62e4-10e3-1c29c0b909a1" testName="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 13, b: 13, expected: 13)" computerName="YANIK" duration="00:00:00.0002914" startTime="2026-11-23T17:33:51.2911692+03:00" endTime="2026-11-23T17:33:51.2911692+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4d2c039-e52a-486b-bebb-0f1e89a5ad7e" />
+    <UnitTestResult executionId="12cde0ad-16eb-400c-b1e1-b6fac6b693c9" testId="7dba2efd-c2fa-e092-c686-246f037b87c8" testName="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 2, expected: True)" computerName="YANIK" duration="00:00:00.0000146" startTime="2026-11-23T17:33:51.2916659+03:00" endTime="2026-11-23T17:33:51.2916660+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12cde0ad-16eb-400c-b1e1-b6fac6b693c9" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 12, b: 18, expected: 6)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="2750d8a6-d1ea-dd27-f6cd-5735de6712c2">
+      <Execution id="ad1aee4a-6d05-4774-8eef-c0938e8bea93" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="Gcd_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 7919, expected: True)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="bb83f0e8-db4d-3d2d-6c27-b2b40ed77382">
+      <Execution id="38f46e89-27e7-4e39-b0d7-a34c6f69bc1f" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="IsPrime_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 2, expected: True)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="7dba2efd-c2fa-e092-c686-246f037b87c8">
+      <Execution id="12cde0ad-16eb-400c-b1e1-b6fac6b693c9" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="IsPrime_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 100, b: 75, expected: 25)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="c9770413-7656-7ad2-d7a0-048cebc4dc8f">
+      <Execution id="ada50a9c-16e2-4f0c-b708-fac220026107" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="Gcd_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 13, b: 13, expected: 13)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="cf92cfcc-d77b-62e4-10e3-1c29c0b909a1">
+      <Execution id="b4d2c039-e52a-486b-bebb-0f1e89a5ad7e" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="Gcd_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 97, expected: True)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="da8ca574-852b-9f40-1dbc-ad075b1f0c76">
+      <Execution id="b46b222b-1a79-4935-aeb7-145d05760ad8" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="IsPrime_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.Gcd_NegativeArguments_Throw" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="ad5f4296-e60b-c023-13f3-bcb9589fa4cd">
+      <Execution id="799b7af6-05b3-4944-a3c4-6610cc37da19" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="Gcd_NegativeArguments_Throw" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 9, expected: False)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="20b1b058-8847-b894-4a3e-74614f083850">
+      <Execution id="d118c113-1ab4-478e-915e-e6ceae5e8473" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="IsPrime_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.IsPrime_ReturnsCorrectValue(n: 1, expected: False)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="03309f45-ab65-1fcc-f611-e4cb00f0bc93">
+      <Execution id="077d3358-de56-43ec-80cc-1031f8aa7f0a" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="IsPrime_ReturnsCorrectValue" />
+    </UnitTest>
+    <UnitTest name="CalcLib.Tests.MathUtilsTests.Gcd_ReturnsCorrectValue(a: 0, b: 7, expected: 7)" storage="d:\кросс-платформ\labvar3\calclib.tests\bin\debug\net9.0\calclib.tests.dll" id="2e034713-9a5b-c4b1-0103-f6302f689208">
+      <Execution id="78f42218-dd15-472b-b00f-77e155f0d582" />
+      <TestMethod codeBase="D:\Кросс-платформ\LabVar3\CalcLib.Tests\bin\Debug\net9.0\CalcLib.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CalcLib.Tests.MathUtilsTests" name="Gcd_ReturnsCorrectValue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="03309f45-ab65-1fcc-f611-e4cb00f0bc93" executionId="077d3358-de56-43ec-80cc-1031f8aa7f0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2750d8a6-d1ea-dd27-f6cd-5735de6712c2" executionId="ad1aee4a-6d05-4774-8eef-c0938e8bea93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9770413-7656-7ad2-d7a0-048cebc4dc8f" executionId="ada50a9c-16e2-4f0c-b708-fac220026107" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad5f4296-e60b-c023-13f3-bcb9589fa4cd" executionId="799b7af6-05b3-4944-a3c4-6610cc37da19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20b1b058-8847-b894-4a3e-74614f083850" executionId="d118c113-1ab4-478e-915e-e6ceae5e8473" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da8ca574-852b-9f40-1dbc-ad075b1f0c76" executionId="b46b222b-1a79-4935-aeb7-145d05760ad8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e034713-9a5b-c4b1-0103-f6302f689208" executionId="78f42218-dd15-472b-b00f-77e155f0d582" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb83f0e8-db4d-3d2d-6c27-b2b40ed77382" executionId="38f46e89-27e7-4e39-b0d7-a34c6f69bc1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf92cfcc-d77b-62e4-10e3-1c29c0b909a1" executionId="b4d2c039-e52a-486b-bebb-0f1e89a5ad7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dba2efd-c2fa-e092-c686-246f037b87c8" executionId="12cde0ad-16eb-400c-b1e1-b6fac6b693c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.4)&#xD;
+[xUnit.net 00:00:00.08]   Discovering: CalcLib.Tests&#xD;
+[xUnit.net 00:00:00.14]   Discovered:  CalcLib.Tests&#xD;
+[xUnit.net 00:00:00.14]   Starting:    CalcLib.Tests&#xD;
+[xUnit.net 00:00:00.23]   Finished:    CalcLib.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
